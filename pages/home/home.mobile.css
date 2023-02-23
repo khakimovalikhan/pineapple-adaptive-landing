@@ -1,5 +1,39 @@
 section,
 header,
 footer {
-	padding: 0 calc(50vw - 375px);
+	padding: 0 calc(50vw - 177.5px);
+}
+
+header {
+	padding-top: 50px;
+	padding-bottom: 56px;
+}
+
+.navbar > nav,
+.navbar > button {
+	display: none;
+}
+
+.navbar > h1 {
+	font-size: 32px;
+	line-height: 43px;
+	flex-basis: 148px;
+}
+
+.nav__burger {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 5px;
+	margin-left: 16px;
+}
+
+.nav__burger > span {
+	width: 24px;
+	height: 2px;
+	background-color: var(--color-main);
+}
+
+.info {
+	margin-top: 22px;
 }

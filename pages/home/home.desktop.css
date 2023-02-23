@@ -1,10 +1,67 @@
 section,
 header,
 footer {
-	padding: 0 calc(50vw - 780px);
+	padding: 0 calc(50vw - 910px);
 }
 
 header {
 	padding-top: 50px;
-	padding-bottom: 33px;
+	padding-bottom: 249px;
+}
+
+.navbar > h1 {
+	font-size: 32px;
+	line-height: 43px;
+	flex-basis: 148px;
+}
+
+.navbar > button {
+	padding: 14px 33px;
+	background-color: var(--color-main);
+	color: white;
+	font-family: var(--font-sub);
+	font-size: 20px;
+	line-height: 27px;
+}
+.nav__burger {
+	display: none;
+}
+
+nav {
+	display: flex;
+	gap: 87px;
+}
+
+nav > a {
+	color: #232323;
+	font-size: 20px;
+	line-height: 27px;
+	font-family: var(--font-sub);
+}
+
+.info {
+	margin-top: 61px;
+}
+
+.about {
+	padding: 0 calc(50vw - 866px);
+	padding-bottom: 250px;
+}
+
+.why {
+	padding: 0 calc(50vw - 866px);
+	padding-bottom: 63px;
+	padding-top: 63px;
+}
+
+.form {
+	padding: 0 calc(50vw - 707.5px);
+	padding-top: 150px;
+	padding-bottom: 267px;
+}
+
+footer {
+	padding: 0 calc(50vw - 707.5px);
+	padding-top: 46px;
+	padding-bottom: 55px;
 }

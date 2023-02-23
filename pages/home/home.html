@@ -12,42 +12,93 @@
 	<link rel="stylesheet" href="../../assets/styles/utility.css">
 	<link rel="stylesheet" href="home.global.css">
 	<!-- Adaptive CSS-->
-	<link rel="stylesheet" media="screen and (min-width: 575.98px)" href="home.mobile.css">
+	<link rel="stylesheet" media="screen and (min-width: 374.98px)" href="home.mobile.css">
 	<link rel="stylesheet" media="screen and (min-width: 1199.98px)" href="home.desktop.css">
 
 </head>
 
 <body>
 	<header>
-		<h1>Pineapple Island</h1>
-		<nav>
-			<a href="#">About Us</a>
-			<a href="#">What we do</a>
-			<a href="#">Project</a>
-		</nav>
-		<button>Get in Touch</button>
+		<div class="navbar">
+			<h1>Pineapple
+				Island</h1>
+			<nav>
+				<a href="#">About Us</a>
+				<a href="#">What we do</a>
+				<a href="#">Project</a>
+			</nav>
+			<button>Get in Touch</button>
+			<div class="nav__burger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+		<div class="info">
+			<div class="info__text">
+				<p>Pineapple Island:
+					GenZ and Millennial
+					Abode</p>
+				<p>a community that gives you a taste of happiness, a place you’ll love to live and an opportunity to build a
+					home.</p>
+			</div>
+			<img src="../../assets/images/main.png" alt="">
+		</div>
 	</header>
-	<section class='info'>
-		<div>
-			<p>Pineapple Island:
-				GenZ and Millenial
-				Abode</p>
+	<section class='about'>
+		<p>About Pineapple Island</p>
+		<div class="about__info">
+			<img src="../../assets/images/second.png" alt="">
+			<div class="about__text">
+				<p>Pineapple Island is the most sought-after community in Ibadan that values and puts the needs of their clients
+					first. It is a territory with loft complexes that creates a country life and homely feeling that is integrated
+					with industrial development. A perfect, professional built abode that gives you the true taste of beauty and
+					happiness.</p>
+			</div>
+		</div>
+	</section>
+
+	<section class='why about'>
+		<p>Why Choose Pineapple Island</p>
+		<div class="about__info">
+			<img src="../../assets/images/second.png" alt="">
+			<div class="about__text">
+				<p>Pineapple Island is the most sought-after community in Ibadan that values and puts the needs of their clients
+					first. It is a territory with loft complexes that creates a country life and homely feeling that is integrated
+					with industrial development. A perfect, professional built abode that gives you the true taste of beauty and
+					happiness.</p>
+			</div>
+		</div>
+	</section>
+
+	<section class='form'>
+		<form action="">
+			<p>Stay In Touch</p>
+			<p>Are you curious about Pineapple Island? Send a message</p>
+			<input type="text" placeholder='Name'>
+			<input type="tel" placeholder='Phone no'>
+			<input type="email" placeholder='Email'>
+			<input type="text" placeholder='Message'>
+			<button>Send</button>
+		</form>
+	</section>
+
+	<footer>
+		<div class="footer__left">
+			<p>Banana
+				Island</p>
 			<p>a community that gives you a taste of happiness, a place you’ll love to live and an opportunity to build a
 				home.</p>
 		</div>
-		<img src="../../assets/images/main.png" alt="">
-	</section>
-
-	<section class='about'>
-		<p>About Pineapple Island</p>
-		<img src="../../assets/images/second.png" alt="">
-		<div class="img-text">
-			<p>Pineapple Island is the most sought-after community in Ibadan that values and puts the needs of their clients
-				first. It is a territory with loft complexes that creates a country life and homely feeling that is integrated
-				with industrial development. A perfect, professional built abode that gives you the true taste of beauty and
-				happiness.</p>
+		<div class="footer__right">
+			<p>Follow up</p>
+			<p>Keep up with our newsletter to get
+				updates about projects and offers</p>
+			<input type="email" placeholder='Email'>
 		</div>
-	</section>
+	</footer>
+	<script src='index.js'></script>
 </body>
+
 
 </html>
