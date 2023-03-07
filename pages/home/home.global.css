@@ -24,39 +24,25 @@ footer {
 .info__text {
 	padding: 92px 42px 45px 89px;
 	color: white;
-	width: 786px;
-	background-color: var(--color-main);
 	position: absolute;
-
-	left: 100px;
 }
 
 .info__text > p:first-of-type {
 	font-weight: 700;
-	font-size: 64px;
-	line-height: 85px;
 }
 
 .info__text > p:last-of-type {
 	font-family: var(--font-sub);
 	font-weight: 400;
-	font-size: 20px;
-	line-height: 180%;
 }
 
 .about {
 	display: flex;
-	gap: 67px;
-	justify-content: space-between;
-	align-items: center;
 }
 
 .about > p {
 	font-weight: 700;
-	font-size: 60px;
-	line-height: 80px;
 	color: #0e204e;
-	width: 317px;
 }
 
 .about__info {
@@ -64,25 +50,12 @@ footer {
 }
 
 .about__text {
-	padding: 134px 60px;
-	background: var(--color-main);
 	color: white;
 }
 
 .about__text > p {
-	width: 315px;
 	font-family: var(--font-sub);
-	font-weight: 400;
-	font-size: 20px;
 	line-height: 160%;
-}
-
-.why {
-	background-color: var(--color-main);
-}
-
-.why > p {
-	color: white;
 }
 
 .why > .about__info {
@@ -104,83 +77,21 @@ footer {
 }
 
 .form > form > p:first-of-type {
-	font-weight: 700;
-	font-size: 60px;
-	line-height: 80px;
 	color: var(--color-main);
 }
 
 .form > form p:last-of-type {
 	font-family: var(--font-sub);
-	font-size: 20px;
-	line-height: 150%;
-	margin: 30px 0 60px;
-}
-
-.form > form > input {
-	width: 909px;
-	height: 65px;
-	margin-bottom: 53px;
-}
-
-.form > form > input:last-of-type {
-	height: 302px;
 }
 
 .form > form > button {
-	padding: 15px 47px 8px 51px;
 	background-color: var(--color-main);
 	color: white;
 	font-family: 'Manrope';
-	font-size: 18px;
-	line-height: 25px;
 }
 
 footer {
 	background-color: var(--color-main);
 	display: flex;
 	justify-content: space-between;
-}
-
-.footer__left {
-	display: flex;
-	flex-direction: column;
-	color: white;
-	gap: 24px;
-}
-
-.footer__left > p:first-of-type {
-	font-family: 'Manrope';
-	font-weight: 500;
-	font-size: 40px;
-	line-height: 55px;
-	color: #ffffff;
-	width: 141px;
-}
-
-.footer__left > p:last-of-type {
-	font-family: 'Manrope';
-	font-size: 20px;
-	line-height: 180%;
-	width: 337px;
-}
-
-.footer__right {
-	display: flex;
-	flex-direction: column;
-	gap: 20px;
-	justify-content: center;
-	color: white;
-}
-
-.footer__right p:first-of-type {
-	font-size: 24px;
-	line-height: 32px;
-	width: 105px;
-}
-
-.footer__right p:last-of-type {
-	font-size: 20px;
-	line-height: 150%;
-	width: 315px;
 }
